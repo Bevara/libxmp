@@ -16,5 +16,6 @@
       "s3m" : "audio",
       "it" : "audio"
     },
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_1"]
 }
