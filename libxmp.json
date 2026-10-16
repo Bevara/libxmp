@@ -16,6 +16,10 @@
       "s3m" : "audio",
       "it" : "audio"
     },
-    "licence_required":false,
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "patents": {
+        "status": "royalty-free",
+        "note": "tracker modules",
+        "checked": "2026-10-16"
+    }
 }
