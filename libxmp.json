@@ -1,6 +1,6 @@
 {
     "name": "libxmp",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Tracker module decoder (MOD, XM, S3M, IT, ...)",
     "filters":["xmpdec"],
     "help": "This filter renders tracker modules (Protracker MOD, Fast Tracker XM, Scream Tracker S3M, Impulse Tracker IT and about ninety other formats) to PCM using libxmp.",
@@ -17,7 +17,7 @@
       "s3m" : "audio",
       "it" : "audio"
     },
-    "using": ["solver_1"],
+    "using": ["mm_solver_1.0.1"],
     "patents": {
         "status": "royalty-free",
         "note": "tracker modules",
