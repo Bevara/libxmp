@@ -2,22 +2,30 @@
     "name": "libxmp",
     "version": "1.0.2",
     "description": "Tracker module decoder (MOD, XM, S3M, IT, ...)",
-    "filters":["xmpdec"],
+    "filters": [
+        "xmpdec"
+    ],
     "help": "This filter renders tracker modules (Protracker MOD, Fast Tracker XM, Scream Tracker S3M, Impulse Tracker IT and about ninety other formats) to PCM using libxmp.",
     "support": [
         "audio"
     ],
-    "sources":"https://bevara.ddns.net/sources/libxmp.accessor",
-    "filter_source":{
-        "xmpdec" : "dec_xmp.c"
+    "sources": "https://bevara.ddns.net/sources/libxmp.accessor",
+    "filter_source": {
+        "xmpdec": "dec_xmp.c"
     },
-    "extension":{
-      "mod" : "audio",
-      "xm" : "audio",
-      "s3m" : "audio",
-      "it" : "audio"
+    "extension": {
+        "mod": "audio",
+        "xm": "audio",
+        "s3m": "audio",
+        "it": "audio"
     },
-    "using": ["mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "tracker modules",
